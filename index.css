@@ -1,0 +1,48 @@
+main {
+    cursor: url(c.png) , auto;
+    position: absolute; /* or fixed, if you want it to be fixed */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Ensure it takes the full viewport width */
+    height: 100vh; /* Ensure it takes the full viewport height */
+}
+
+#divbgwrapper {
+    position: relative;
+    height: 100vh;
+    background-image: url(img/bgimg.png);
+}
+#divbgwrapper div{
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height:50%;
+    width: 50%;
+    backdrop-filter: blur(10px);
+    background-color: #ffffff7e;
+    
+    z-index: 10;
+}
+#divbgwrapper div #headtext {
+    border: 2px solid transparent;
+    font-family: monospace;
+    text-align: center;
+    color: #383838;
+    font-weight: 900;
+     
+}
+
+#navbar{
+    backdrop-filter: blur(10px);
+    background-color: #edd8a9a0;
+    width: 100vw;
+    height: 10vh;
+    z-index: 20;
+}
+#navbar #logo{
+    margin-left: 10px;
+    height: 10vh;
+
+}
