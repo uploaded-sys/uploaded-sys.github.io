@@ -10,39 +10,85 @@ main {
 #divbgwrapper {
     position: relative;
     height: 100vh;
-    background-image: url(img/bgimg.png);
+    background-color: #212830;
 }
-#divbgwrapper div{
+
+#divbgwrapper #wormpic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    rotate: 20deg;
+    z-index: 4;
+}
+#divbgwrapper #wormpic2 {
+    height: 20%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    rotate: 20deg;
+    
+}
+
+#divbgwrapper #info {
     border-radius: 10px;
     transform: translate(-50%, -50%);
     position: absolute;
     top: 50%;
     left: 50%;
-    height:50%;
+    height: 50%;
     width: 50%;
     backdrop-filter: blur(10px);
     background-color: #ffffff7e;
-    
     z-index: 10;
 }
+
 #divbgwrapper div #headtext {
     border: 2px solid transparent;
     font-family: monospace;
     text-align: center;
     color: #383838;
-    font-weight: 900;
-     
 }
 
-#navbar{
+#navbar {
     backdrop-filter: blur(10px);
-    background-color: #edd8a9a0;
+    background-color: #6d6d6da0;
     width: 100vw;
     height: 10vh;
-    z-index: 20;
+   
 }
-#navbar #logo{
+
+#navbar #logo {
     margin-left: 10px;
     height: 10vh;
+    border-radius: 5px;
+}
 
+#navbar a {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    font-family: monospace;
+    font-weight: 900;
+    text-decoration: none;
+    color: #fcf8f8b5;
+    border: none;
+    cursor: default;
+   
+}
+
+#navbar #githublink {
+    right: 65px;
+}
+
+#navbar #projectspage {
+    right: 120px;
+}
+#navbar a:hover {
+    color: rgb(92, 202, 165);
+    background-color: #33333379;
+    backdrop-filter: blur(10px);
+    border-radius: 4px;
 }
