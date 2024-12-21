@@ -22,10 +22,10 @@ main {
     z-index: 4;
 }
 #divbgwrapper #wormpic2 {
-    height: 20%;
+    height: 40%;
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 25%;
     transform: translate(-50%, -50%);
     rotate: 20deg;
     
