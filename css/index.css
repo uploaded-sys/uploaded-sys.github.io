@@ -1,10 +1,10 @@
 main {
-    cursor: url(c.png) , auto;
-    position: absolute; /* or fixed, if you want it to be fixed */
+    cursor: url(c.png), auto;
+    position: absolute;
     top: 0;
     left: 0;
-    width: 100vw; /* Ensure it takes the full viewport width */
-    height: 100vh; /* Ensure it takes the full viewport height */
+    width: 100vw;
+    height: 100vh;
 }
 
 #divbgwrapper {
@@ -21,13 +21,13 @@ main {
     rotate: 20deg;
     z-index: 4;
 }
+
 #divbgwrapper #wormpic2 {
     position: absolute;
     top: 50%;
     left: 20%;
     transform: translate(-50%, -50%);
     rotate: 20deg;
-    
 }
 
 #divbgwrapper #info {
@@ -55,7 +55,6 @@ main {
     background-color: #6d6d6da0;
     width: 100vw;
     height: 10vh;
-   
 }
 
 #navbar #logo {
@@ -75,7 +74,6 @@ main {
     color: #fcf8f8b5;
     border: none;
     cursor: default;
-   
 }
 
 #navbar #githublink {
@@ -85,6 +83,7 @@ main {
 #navbar #projectspage {
     right: 120px;
 }
+
 #navbar a:hover {
     color: rgb(92, 202, 165);
     background-color: #33333379;
